@@ -13,7 +13,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class CursosComponent implements OnInit {
   cursos$: Observable<Curso[]>;
-  displayedColumns = ['name','category'];
+  displayedColumns = ['_id','name','category'];
 
   //cursosService: CursosService;
 
@@ -38,7 +38,7 @@ export class CursosComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
+    // TODO document why this method 'ngOnInit' is empty
   }
 
 }
